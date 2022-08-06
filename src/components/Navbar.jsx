@@ -8,6 +8,15 @@ const Navbar = () => {
         <div className='relative right-20'>
             <img src={Logo} alt="Logo Image" style ={{width: '200px'}}/>
         </div>
+        <div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </div>
     </div>
   )
 }
