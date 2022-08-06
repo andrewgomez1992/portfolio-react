@@ -21,7 +21,8 @@ const Skills = () => {
             </div>
             <div>
                 <div>
-                    <img src={HTML} alt="" />
+                    <img src={HTML} alt="HTML icon" />
+                    <p>HTML</p>
                 </div>
             </div>
         </div>
