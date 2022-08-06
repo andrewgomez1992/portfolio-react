@@ -15,7 +15,11 @@ const Home = () => {
         of the needs of those around me. I am very curious, if I had 100 lifetimes 
         I would have no problem staying busy and learning new things in each and every one of them.</p>
             <div>
-                <button className='text-white border-2 rounded px-6 py-3 my-2 flex items-center'>View Projects <HiArrowNarrowRight/></button>
+                <button className='text-white group border-2 rounded px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>View Projects
+                    <span className='group-hover:rotate-90 duration-300'>
+                    <HiArrowNarrowRight className='ml-3'/>
+                    </span>
+                </button>
             </div>
         </div>
 
