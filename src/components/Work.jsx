@@ -13,7 +13,8 @@ const Work = () => {
                 <p className='py-6'>Check out some of my recent projects</p>
             </div>
 
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+            <div style={{backgroundImage: `url(${flix})`}}
+            className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                 <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
                     
                     {/** Hover Effects */}
