@@ -16,6 +16,13 @@ const About = () => {
                     <div>
                         <p>Hi. I'm Andrew, nice to meet you. Please take a look around.</p>
                     </div>
+                    <div>
+                        <p>I am passionate about improving the lives of those around me. I specialize in 
+                        doing so through Full Stack Web Development. I want the people to love you, and your fans 
+                        to create #hashtags in your honor. What would you do if you had a Software Engineer 
+                        at your fingertips?
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
