@@ -1,5 +1,6 @@
-import React from 'react'
-import logo from '../assets/initials.png'
+import React from 'react';
+import {FaBars, FaTimes} from 'react-icons';
+import logo from '../assets/initials.png';
 
 const Navbar = () => {
   return (
