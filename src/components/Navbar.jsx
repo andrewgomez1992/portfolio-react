@@ -8,8 +8,10 @@ const Navbar = () => {
         <div className='relative right-20'>
             <img src={Logo} alt="Logo Image" style ={{width: '200px'}}/>
         </div>
+
+        {/** Menu */}
         <div>
-            <ul>
+            <ul className='flex'>
                 <li>Home</li>
                 <li>About</li>
                 <li>Skills</li>
@@ -17,6 +19,25 @@ const Navbar = () => {
                 <li>Contact</li>
             </ul>
         </div>
+
+        {/** Hamburger */}
+        <div className='hidden'>
+            <FaBars />
+        </div>
+
+
+        {/** Mobile Menu */}
+        <ul className='hidden'>
+            <li>Home</li>
+            <li>About</li>
+            <li>Skills</li>
+            <li>Projects</li>
+            <li>Contact</li>
+        </ul>
+
+
+        {/** Social Icons */}
+        <div></div>
     </div>
   )
 }
