@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa';
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/Logo.png';
@@ -13,7 +13,7 @@ const Navbar = () => {
     }
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#d6d6d6] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#d6d6d6] text-gray-800'>
         <div className='relative right-20 pt-5'>
             <img src={Logo} alt="Logo Image" style ={{width: '200px'}}/>
         </div>
@@ -28,7 +28,7 @@ const Navbar = () => {
             </ul>
 
         {/** Hamburger */}
-        <div onClick={handleClick} className='md:hidden z-10'>
+        <div onClick={handleClick} className='md:hidden z-10 text-gray-800 h-[30px]'>
             {!nav ? <FaBars /> : <FaTimes/>}
         </div>
 
