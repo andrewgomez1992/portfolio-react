@@ -1,4 +1,5 @@
 import React from 'react'
+import DREW from '../assets/drew.jpg'
 
 const About = () => {
   return (
