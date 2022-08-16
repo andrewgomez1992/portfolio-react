@@ -6,6 +6,11 @@ import Logo from '../assets/Logo.png';
 
 const Navbar = ({ menuOpen, setMenuOpen }) => {
 
+    const linkedInURL = 'https://www.linkedin.com/in/andrewgomez1992'
+    const instagramURL = 'https://www.instagram.com/_drewgomez_/'
+    const githubURL = 'https://github.com/andrewgomez1992'
+    const resumeURL = 'https://docs.google.com/document/d/1SaiNKo1XMetDAVxoI-2XGdLZ8rt305D3rzMARIqyCLU/edit?usp=sharing'
+
     const [nav, setNav] = useState(false)
 
     const handleClick = () => {
@@ -57,25 +62,27 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
 
 
         {/** Social Icons */}
+
+
         <div className='hidden lg:flex fixed flex-col flex-end top-[35%] left-0'>
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 rounded'>
-                    <a className='flex justify-between items center w-full text-gray-300' href="/">
+                    <a onClick={() => window.open(linkedInURL, '_blank')} className='flex justify-between items center w-full text-gray-300' href="/">
                         Linkedin <FaLinkedin  size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] rounded'>
-                    <a className='flex justify-between items center w-full text-gray-300' href="/">
+                    <a onClick={() => window.open(githubURL, '_blank')} className='flex justify-between items center w-full text-gray-300'>
                         Github <FaGithub  size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] rounded'>
-                    <a className='flex justify-between items center w-full text-gray-300' href="/">
+                    <a className='flex justify-between items center w-full text-gray-300' href="mailto:drewgomez209@gmail.com">
                         Email <HiOutlineMail  size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] rounded'>
-                    <a className='flex justify-between items center w-full text-gray-300' href="/">
+                    <a onClick={() => window.open(resumeURL, '_blank')} className='flex justify-between items center w-full text-gray-300' href="/">
                         Resume <BsFillPersonLinesFill  size={30}/>
                     </a>
                 </li>
