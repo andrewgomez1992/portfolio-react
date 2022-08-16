@@ -7,7 +7,6 @@ import Logo from '../assets/Logo.png';
 const Navbar = ({ menuOpen, setMenuOpen }) => {
 
     const linkedInURL = 'https://www.linkedin.com/in/andrewgomez1992'
-    const instagramURL = 'https://www.instagram.com/_drewgomez_/'
     const githubURL = 'https://github.com/andrewgomez1992'
     const resumeURL = 'https://docs.google.com/document/d/1SaiNKo1XMetDAVxoI-2XGdLZ8rt305D3rzMARIqyCLU/edit?usp=sharing'
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import {HiArrowNarrowRight} from 'react-icons/hi';
-// import {useHistory} from "react-router-dom"
 
 const Home = () => {
 
@@ -9,7 +8,7 @@ const Home = () => {
   const githubURL = 'https://github.com/andrewgomez1992'
 
   return (
-    <div id='home' name='#home' className='w-full h-screen bg-[#d6d6d6]'>
+    <div id='home' className='w-full h-screen bg-[#d6d6d6]'>
 
         {/** Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
@@ -20,7 +19,7 @@ const Home = () => {
                         doing so through Full Stack Web Development. What would you do if you had a Software Engineer 
                         at your fingertips?</p>
             <div>
-                <button  className='text-gray-500 group border-2 rounded px-6 py-3 my-2 flex items-center border-[#ccbcd8] hover:bg-[#ccbcd8] hover:border-[#ccbcd8]'>View Projects
+                <button className='text-gray-500 group border-2 rounded px-6 py-3 my-2 flex items-center border-[#ccbcd8] hover:bg-[#ccbcd8] hover:border-[#ccbcd8]'>View Projects
                     <span className='group-hover:rotate-90 duration-300'>
                     <HiArrowNarrowRight className='ml-3'/>
                     </span>
