@@ -5,8 +5,15 @@ import flix from '../assets/flix.png';
 import myadmin from '../assets/myadmin.png';
 
 const Work = () => {
+
+    const flixURL = "https://flix-react-js-tailwind.vercel.app/"
+    const airTravelURL = "https://airtravel-indol.vercel.app/#top"
+    const myAdminURL = "https://myadmin-nine.vercel.app/"
+    const noodleURL = "https://noodle-eta.vercel.app/"
+    const devSpaceURL = "https://dev-space-nine.vercel.app/"
+
   return (
-    <div name='work' className='w-full md:h-screen text-gray-800 bg-[#d6d6d6]'>
+    <div href='#work' name='work' className='w-full md:h-screen text-gray-800 bg-[#d6d6d6]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-800 border-[#ccbcd8]'>Projects</p>
@@ -27,7 +34,7 @@ const Work = () => {
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button onClick={() => window.open(flixURL, '_blank')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href="">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
@@ -46,7 +53,7 @@ const Work = () => {
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button onClick={() => window.open(myAdminURL, '_blank')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href="">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
@@ -65,7 +72,7 @@ const Work = () => {
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button onClick={() => window.open(devSpaceURL, '_blank')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href="">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
@@ -84,7 +91,7 @@ const Work = () => {
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button onClick={() => window.open(airTravelURL, '_blank')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href="">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>

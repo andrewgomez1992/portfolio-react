@@ -4,7 +4,7 @@ import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/Logo.png';
 
-const Navbar = () => {
+const Navbar = ({ menuOpen, setMenuOpen }) => {
 
     const [nav, setNav] = useState(false)
 
@@ -19,13 +19,26 @@ const Navbar = () => {
         </div>
 
         {/** Menu */}
+
+        <div className={"menu " + (menuOpen && "active")}>
             <ul className='hidden md:flex'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li onClick={() => setMenuOpen(false)}>
+                    <a href="#intro">Home</a>
+                </li>
+                <li onClick={() => setMenuOpen(false)}>
+                    <a href="#about">About</a>
+                </li>
+                <li onClick={() => setMenuOpen(false)}>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li onClick={() => setMenuOpen(false)}>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li onClick={() => setMenuOpen(false)}>
+                    <a href="#contact">Contact</a>
+                </li>
             </ul>
+        </div>
 
         {/** Hamburger */}
         <div onClick={handleClick} className='md:hidden z-10 text-gray-800 h-[30px]'>
