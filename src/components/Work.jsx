@@ -12,6 +12,11 @@ const Work = () => {
     const noodleURL = "https://noodle-eta.vercel.app/"
     const devSpaceURL = "https://dev-space-nine.vercel.app/"
 
+    const devspaceCode = "https://github.com/andrewgomez1992/devSpace"
+    const airtravelCode = "https://github.com/andrewgomez1992/airtravel"
+    const flixCode = "https://github.com/andrewgomez1992/flix-react-js-tailwind"
+    const myadminCode = "https://github.com/andrewgomez1992/myadmin"
+
   return (
     <div href='#work' name='work' className='w-full md:h-screen text-gray-800 bg-[#d6d6d6]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
