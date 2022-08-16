@@ -28,7 +28,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
         <div className={"menu " + (menuOpen && "active")}>
             <ul className='hidden md:flex'>
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#intro">Home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
                     <a href="#about">About</a>

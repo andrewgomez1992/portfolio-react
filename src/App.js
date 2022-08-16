@@ -4,12 +4,14 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+import { useState } from "react";
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div>
-      <Navbar/>
-      <Home />
+      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Home menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <About />
       <Skills />
       <Work />

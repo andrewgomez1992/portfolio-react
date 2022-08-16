@@ -9,7 +9,7 @@ const Home = () => {
   const githubURL = 'https://github.com/andrewgomez1992'
 
   return (
-    <div name='#home' className='w-full h-screen bg-[#d6d6d6]'>
+    <div id='home' name='#home' className='w-full h-screen bg-[#d6d6d6]'>
 
         {/** Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
