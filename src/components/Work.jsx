@@ -22,7 +22,7 @@ const Work = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-[#BDBDBD] border-[#29AB87]'>Projects</p>
-                <p className='py-6'>Check out some of my recent projects</p>
+                <p className='py-6 font-semibold'>Check out some of my recent projects</p>
             </div>
 
             {/** Container */}

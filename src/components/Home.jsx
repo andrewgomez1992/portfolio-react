@@ -13,7 +13,7 @@ const Home = () => {
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <p className='text-[#BDBDBD] font-semibold'>Hi, my name is</p>
             <h1 className='pb-2 pt-2 text-4xl sm:text-7xl font-bold text-[#29AB87]'>Andrew Gomez</h1>
-            <h2 className='text-4xl sm:text-7xl font-bold text-[#BDBDBD]'>I'm a Full Stack Developer.</h2>
+            <h2 className='text-4xl sm:text-7xl font-bold text-[#d7d7d7]'>I'm a Full Stack Developer.</h2>
             <p className='text-[#BDBDBD] py-4 max-w-[700px] font-semibold'>I am passionate about improving the lives of those around me. I specialize in 
                         doing so through Full Stack Web Development. <span className='text-[#29AB87] font-bold'>What would you do if you had a Software Engineer 
                         at your fingertips?</span></p>

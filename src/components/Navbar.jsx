@@ -26,7 +26,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
       {/** Menu */}
 
       <div className={"menu " + (menuOpen && "active")}>
-        <ul className="hidden md:flex">
+        <ul className="hidden md:flex font-semibold">
           <li>
             <a href="#home">Home</a>
           </li>

@@ -3,11 +3,11 @@ import DREW from '../assets/drew.jpg'
 
 const About = () => {
   return (
-    <div id='about' href='#about' name='about' className='w-full h-screen bg-[#121212] text-[#BDBDBD]'>
+    <div id='about' href='#about' name='about' className='w-full h-full bg-[#121212] text-[#BDBDBD] pt-10 pb-10'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                 <div className='sm:text-left pb-8 pl-4'>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#29AB87]'>About</p>
+                    <p className='text-[#BDBDBD] text-4xl font-bold inline border-b-4 border-[#29AB87]'>About</p>
                 </div>
                 <div>
 
