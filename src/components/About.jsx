@@ -3,26 +3,30 @@ import DREW from '../assets/drew.jpg'
 
 const About = () => {
   return (
-    <div id='about' href='#about' name='about' className='w-full h-screen bg-[#d6d6d6] text-gray-800'>
+    <div id='about' href='#about' name='about' className='w-full h-screen bg-[#121212] text-[#BDBDBD]'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                <div className='sm:text-right pb-8 pl-4'>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#ccbcd8]'>About</p>
+                <div className='sm:text-left pb-8 pl-4'>
+                    <p className='text-4xl font-bold inline border-b-4 border-[#29AB87]'>About</p>
                 </div>
                 <div>
 
                 </div>
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className='sm:text-right text-4xl font-bold '>
-                        <p>Hi. I'm Andrew, nice to meet you. Please take a look around.</p>
+                    <div>
+                        <p className='sm:text-left text-4xl font-bold'>Hi. <span className='text-[#29AB87]'>I'm Andrew</span>, nice to meet you.</p>
+                        <p className='pt-8 font-semibold'>I have spent hundreds of hours
+                             with JavaScript, React, HTML, CSS, API's, SQL and more which have 
+                             thrusted me into a bright introduction of a world I once never knew 
+                             existed. Though my time in tech is just emerging I’ve found myself 
+                             consumed by the endless possibilities that could be sketched with the 
+                             end of my fingertips. <span className='text-[#29AB87]'>My goal is to contribute to technology to make 
+                             the world a better place.</span>
+                        </p>
                     </div>
                     <div>
-                        <p>I would consider myself a very thoughtful and creative individual. 
-        Supported with emotional intelligence. I have a very clear understanding 
-        of the needs of those around me. I am very curious, if I had 100 lifetimes 
-        I would have no problem staying busy and learning new things in each and every one of them.
-                        </p>
+                        <img className="rounded-lg " src={DREW} alt="picture of me sitting down" />
                     </div>
                 </div>
             </div>

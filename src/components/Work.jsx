@@ -18,10 +18,10 @@ const Work = () => {
     const myadminCode = "https://github.com/andrewgomez1992/myadmin"
 
   return (
-    <div id='projects' href='#work' name='work' className='w-full md:h-screen text-gray-800 bg-[#d6d6d6]'>
+    <div id='projects' href='#work' name='work' className='w-full md:h-screen text-[#BDBDBD] bg-[#121212]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 text-gray-800 border-[#ccbcd8]'>Projects</p>
+                <p className='text-4xl font-bold inline border-b-4 text-[#BDBDBD] border-[#29AB87]'>Projects</p>
                 <p className='py-6'>Check out some of my recent projects</p>
             </div>
 
@@ -30,7 +30,7 @@ const Work = () => {
 
                 {/** Grid Item */}
                 <div style={{backgroundImage: `url(${flix})`}}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
+                className='shadow-md shadow-[#29AB87] group container rounded-md flex justify-center mx-auto content-div'>
                     
                     {/** Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100 p-4'>
@@ -49,7 +49,7 @@ const Work = () => {
                 </div>
                 {/** Grid Item */}
                 <div style={{backgroundImage: `url(${myadmin})`}}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
+                className='shadow-md shadow-[#29AB87] group container rounded-md flex justify-center mx-auto content-div'>
                     
                     {/** Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100 p-4'>
@@ -68,7 +68,7 @@ const Work = () => {
                 </div>
                 {/** Grid Item */}
                 <div style={{backgroundImage: `url(${devspace})`}}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
+                className='shadow-md shadow-[#29AB87] group container rounded-md flex justify-center mx-auto content-div'>
                     
                     {/** Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100 p-4'>
@@ -87,7 +87,7 @@ const Work = () => {
                 </div>
                 {/** Grid Item */}
                 <div style={{backgroundImage: `url(${airtravel})`}}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center mx-auto content-div'>
+                className='shadow-md shadow-[#29AB87] group container rounded-md flex justify-center mx-auto content-div'>
                     
                     {/** Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100 p-4'>

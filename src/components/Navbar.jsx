@@ -17,9 +17,9 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
     }
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#d6d6d6] text-gray-800'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#121212] text-[#29AB87]'>
         <div className='relative pt-6 px-2 right-32'>
-            <img src={Logo} alt="Logo Image" style ={{width: '300px'}}/>
+            <img src={Logo} alt="logo" style ={{width: '300px'}}/>
         </div>
 
         {/** Menu */}
@@ -45,18 +45,18 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
         </div>
 
         {/** Hamburger */}
-        <div onClick={handleClick} className='md:hidden z-10 text-gray-800 h-[30px]'>
+        <div onClick={handleClick} className='md:hidden z-10 text-[#29AB87] h-[30px]'>
             {!nav ? <FaBars /> : <FaTimes/>}
         </div>
 
 
         {/** Mobile Menu */}
-        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#d6d6d6] flex flex-col justify-center items-center'}>
-            <li className='py-6 text-4xl'>Home</li>
-            <li className='py-6 text-4xl'>About</li>
-            <li className='py-6 text-4xl'>Skills</li>
-            <li className='py-6 text-4xl'>Projects</li>
-            <li className='py-6 text-4xl'>Contact</li>
+        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#121212] flex flex-col justify-center items-center'}>
+            <li href="#home" className='py-6 text-4xl'>Home</li>
+            <li href="#about" className='py-6 text-4xl'>About</li>
+            <li href="#skills" className='py-6 text-4xl'>Skills</li>
+            <li href="#projects" className='py-6 text-4xl'>Projects</li>
+            <li href="#contact" className='py-6 text-4xl'>Contact</li>
         </ul>
 
 
