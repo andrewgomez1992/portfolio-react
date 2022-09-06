@@ -8,7 +8,7 @@ const Home = () => {
   const githubURL = 'https://github.com/andrewgomez1992'
 
   return (
-    <div id='home' className='w-full h-screen bg-[#121212]'>
+    <div id='home' href='#about' className='w-full h-screen bg-[#121212]'>
         {/** Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <p className='text-[#BDBDBD] font-semibold'>Hi, my name is</p>
