@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import Logo from '../assets/Logo.png';
+import Logo from '../assets/logo.png';
 
 const Navbar = ({ menuOpen, setMenuOpen }) => {
 
@@ -17,9 +17,9 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
     }
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#121212] text-[#29AB87]'>
-        <div className='relative pt-6 px-2 right-32'>
-            <img src={Logo} alt="logo" style ={{width: '300px'}}/>
+    <div className='fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#121212] text-[#29AB87]'>
+        <div className='relative pt-8 px-2 right-14'>
+            <img src={Logo} alt="logo" style ={{width: '250px'}}/>
         </div>
 
         {/** Menu */}
@@ -45,7 +45,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
         </div>
 
         {/** Hamburger */}
-        <div onClick={handleClick} className='md:hidden z-10 text-[#29AB87] h-[30px]'>
+        <div onClick={handleClick} className='md:hidden z-10 text-[#29AB87] h-[25px] text-xl'>
             {!nav ? <FaBars /> : <FaTimes/>}
         </div>
 
