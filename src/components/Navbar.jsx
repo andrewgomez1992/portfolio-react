@@ -7,8 +7,7 @@ import Logo from "../assets/logo.png";
 const Navbar = ({ menuOpen, setMenuOpen }) => {
   const linkedInURL = "https://www.linkedin.com/in/andrewgomez1992";
   const githubURL = "https://github.com/andrewgomez1992";
-  const resumeURL =
-    "https://docs.google.com/document/d/1SaiNKo1XMetDAVxoI-2XGdLZ8rt305D3rzMARIqyCLU/edit?usp=sharing";
+  const resumeURL = "https://docs.google.com/document/d/1SaiNKo1XMetDAVxoI-2XGdLZ8rt305D3rzMARIqyCLU/edit?usp=sharing";
 
   const [nav, setNav] = useState(false);
   
