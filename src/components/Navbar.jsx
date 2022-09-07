@@ -95,6 +95,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
             <a
               onClick={() => window.open(githubURL, "_blank")}
               className="flex justify-between items center w-full text-gray-300"
+              href='github'
             >
               Github <FaGithub size={30} />
             </a>

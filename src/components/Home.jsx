@@ -3,9 +3,9 @@ import {HiArrowNarrowRight} from 'react-icons/hi';
 
 const Home = () => {
 
-  const linkedInURL = 'https://www.linkedin.com/in/andrewgomez1992'
-  const instagramURL = 'https://www.instagram.com/_drewgomez_/'
-  const githubURL = 'https://github.com/andrewgomez1992'
+  // const linkedInURL = 'https://www.linkedin.com/in/andrewgomez1992'
+  // const instagramURL = 'https://www.instagram.com/_drewgomez_/'
+  // const githubURL = 'https://github.com/andrewgomez1992'
 
   return (
     <div id='home' href='#about' className='w-full h-screen bg-[#121212]'>

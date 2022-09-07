@@ -19,14 +19,14 @@ const About = () => {
                         <p className='pt-8 font-semibold'>I have spent hundreds of hours
                              with JavaScript, React, HTML, CSS, API's, SQL and more which have 
                              thrusted me into a bright introduction of a world I once never knew 
-                             existed. Though my time in tech is just emerging I’ve found myself 
+                             existed. Though my time in tech is just emerging I've found myself 
                              consumed by the endless possibilities that could be sketched with the 
                              end of my fingertips. <span className='text-[#29AB87]'>My goal is to contribute to technology to make 
                              the world a better place.</span>
                         </p>
                     </div>
                     <div>
-                        <img className="rounded-lg " src={DREW} alt="picture of me sitting down" />
+                        <img className="rounded-lg " src={DREW} alt="selfie" />
                     </div>
                 </div>
             </div>
