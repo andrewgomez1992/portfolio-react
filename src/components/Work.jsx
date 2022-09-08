@@ -9,7 +9,6 @@ const Work = () => {
     const flixURL = "https://flix-react-js-tailwind.vercel.app/"
     const airTravelURL = "https://airtravel-indol.vercel.app/#top"
     const myAdminURL = "https://myadmin-nine.vercel.app/"
-    const noodleURL = "https://noodle-eta.vercel.app/"
     const devSpaceURL = "https://dev-space-nine.vercel.app/"
 
     const devspaceCode = "https://github.com/andrewgomez1992/devSpace"
