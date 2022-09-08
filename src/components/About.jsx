@@ -3,7 +3,7 @@ import DREW from '../assets/drew.jpg'
 
 const About = () => {
   return (
-    <div id='about' href='#about' name='about' className='w-full h-full bg-[#121212] text-[#BDBDBD] pt-10 pb-10'>
+    <div id='about' href='about' className='w-full h-full bg-[#121212] text-[#BDBDBD] pt-10 pb-10'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                 <div className='sm:text-left pb-8 pl-4'>

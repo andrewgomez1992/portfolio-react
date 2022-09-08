@@ -19,7 +19,9 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
   return (
     <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#121212] text-[#29AB87]">
       <div className="relative pt-2 px-4 right-4">
-        <img id='home' src={Logo} alt="logo" style={{ width: "60px", cursor: 'pointer' }} />
+        <a href='/'>
+        <img href='/' src={Logo} alt="logo" style={{ width: "60px", cursor: 'pointer' }} />
+        </a>
       </div>
 
       {/** Menu */}

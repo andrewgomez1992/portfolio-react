@@ -1,9 +1,5 @@
 import React from 'react'
 
-// text-[#29AB87]
-// text-[#BDBDBD]
-// bg-[#121212]
-
 const Contact = () => {
   return (
     <div id='contact' name='contact' className='w-full h-screen bg-[#121212] flex justify-center items-center p-4 pt-10'>
