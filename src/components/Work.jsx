@@ -37,10 +37,10 @@ const Work = () => {
                             React JS & Firebase
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="">
+                            <a href="flix-site">
                                 <button onClick={() => window.open(flixURL, '_blank')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="">
+                            <a href="flix-code">
                                 <button onClick={() => window.open(flixCode, '_blank')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -56,10 +56,10 @@ const Work = () => {
                             React JS & Sass
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="">
+                            <a href="myadmin-site">
                                 <button onClick={() => window.open(myAdminURL, '_blank')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="">
+                            <a href="myadmin-code">
                                 <button onClick={() => window.open(myadminCode, '_blank')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -75,10 +75,10 @@ const Work = () => {
                            JavaScript, HTML, and CSS
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="">
+                            <a href="devspace-site">
                                 <button onClick={() => window.open(devSpaceURL, '_blank')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="">
+                            <a href="devspace-code">
                                 <button onClick={() => window.open(devspaceCode, '_blank')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -94,10 +94,10 @@ const Work = () => {
                             HTML and CSS
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="">
+                            <a href="travel-site">
                                 <button onClick={() => window.open(airTravelURL, '_blank')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="">
+                            <a href="travel-code">
                                 <button onClick={() => window.open(airtravelCode, '_blank')} className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>

@@ -1,10 +1,10 @@
+import React, {useState} from "react";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
-import { useState } from "react";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
