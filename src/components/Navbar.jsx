@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/Logo.png";
 
 const Navbar = ({ menuOpen, setMenuOpen }) => {
   const linkedInURL = "https://www.linkedin.com/in/andrewgomez1992";
@@ -10,17 +10,17 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
   const resumeURL = "https://docs.google.com/document/d/1SaiNKo1XMetDAVxoI-2XGdLZ8rt305D3rzMARIqyCLU/edit?usp=sharing";
 
   const [nav, setNav] = useState(false);
-  
+
 
   const handleClick = () => {
     setNav(!nav);
-  }; 
+  };
 
   return (
     <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#121212] text-[#29AB87]">
       <div className="relative pt-2 px-4 right-4">
         <a href='/'>
-        <img href='/' src={Logo} alt="logo" style={{ width: "60px", cursor: 'pointer' }} />
+          <img href='/' src={Logo} alt="logo" style={{ width: "60px", cursor: 'pointer' }} />
         </a>
       </div>
 
