@@ -16,6 +16,8 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
     setNav(!nav);
   };
 
+  // Test comment for deployment
+
   return (
     <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#121212] text-[#29AB87]">
       <div className="relative pt-2 px-4 right-4">
