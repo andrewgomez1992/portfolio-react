@@ -25,7 +25,7 @@ const Home = () => {
             href="#projects"
             className="text-[#BDBDBD] font-bold group border-2 
                 rounded px-6 py-3 my-2 flex items-center border-[#29AB87]
-                 hover:bg-[#29AB87] hover:border-[#29AB87] hover:text-white"
+                 hover:bg-[#29AB87] hover:border-[#29AB87] hover:text-white transition"
           >
             View Projects
             <span className="group-hover:rotate-90 duration-300">

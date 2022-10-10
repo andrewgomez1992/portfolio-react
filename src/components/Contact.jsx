@@ -18,8 +18,14 @@ const Contact = () => {
           </p>
           <p className="text-gray-300 py-4 font-semibold">
             Submit the form below or{" "}
-            <span className="text-[#29AB87]">shoot me an email</span> -
-            drewgomez209@gmail.com
+            <span
+              onClick={() =>
+                (window.location = "mailto:drewgomez209@gmail.com")
+              }
+              className="text-[#29AB87] hover:underline cursor-pointer"
+            >
+              shoot me an email
+            </span>
           </p>
         </div>
         <input
@@ -40,7 +46,7 @@ const Contact = () => {
           name="message"
           rows="10"
         ></textarea>
-        <button className="text-[#BDBDBD] font-semibold border-2 border-[#29AB87] hover:bg-[#29AB87] hover:border-[#29AB87] hover:text-white px-4 py-3 my-8 mx-auto flex items-center rounded">
+        <button className="text-[#BDBDBD] transition font-semibold border-2 border-[#29AB87] hover:bg-[#29AB87] hover:border-[#29AB87] hover:text-white px-4 py-3 my-8 mx-auto flex items-center rounded">
           Let's join forces
         </button>
       </form>
