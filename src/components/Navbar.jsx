@@ -7,10 +7,10 @@ import Logo from "../assets/Logo.png";
 const Navbar = ({ menuOpen, setMenuOpen }) => {
   const linkedInURL = "https://www.linkedin.com/in/andrewgomez1992";
   const githubURL = "https://github.com/andrewgomez1992";
-  const resumeURL = "https://docs.google.com/document/d/1SaiNKo1XMetDAVxoI-2XGdLZ8rt305D3rzMARIqyCLU/edit?usp=sharing";
+  const resumeURL =
+    "https://docs.google.com/document/d/1SaiNKo1XMetDAVxoI-2XGdLZ8rt305D3rzMARIqyCLU/edit?usp=sharing";
 
   const [nav, setNav] = useState(false);
-
 
   const handleClick = () => {
     setNav(!nav);
@@ -19,8 +19,13 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
   return (
     <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#121212] text-[#29AB87]">
       <div className="relative pt-2 px-4 right-4">
-        <a href='/'>
-          <img href='/' src={Logo} alt="logo" style={{ width: "60px", cursor: 'pointer' }} />
+        <a href="/">
+          <img
+            href="/"
+            src={Logo}
+            alt="logo"
+            style={{ width: "60px", cursor: "pointer" }}
+          />
         </a>
       </div>
 
@@ -62,19 +67,19 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
             : "absolute top-0 left-0 w-full h-screen bg-[#121212] flex flex-col justify-center items-center"
         }
       >
-        <li className='py-6 text-4xl' onClick={() => setNav(!nav)}>
+        <li className="py-6 text-4xl" onClick={() => setNav(!nav)}>
           <a href="#home">Home</a>
         </li>
-        <li className='py-6 text-4xl' onClick={() => setNav(!nav)}>
+        <li className="py-6 text-4xl" onClick={() => setNav(!nav)}>
           <a href="#about">About</a>
         </li>
-        <li className='py-6 text-4xl' onClick={() => setNav(!nav)}>
+        <li className="py-6 text-4xl" onClick={() => setNav(!nav)}>
           <a href="#skills">Skills</a>
         </li>
-        <li className='py-6 text-4xl' onClick={() => setNav(!nav)}>
+        <li className="py-6 text-4xl" onClick={() => setNav(!nav)}>
           <a href="#projects">Projects</a>
         </li>
-        <li className='py-6 text-4xl' onClick={() => setNav(!nav)}>
+        <li className="py-6 text-4xl" onClick={() => setNav(!nav)}>
           <a href="#contact">Contact</a>
         </li>
       </ul>
@@ -96,7 +101,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
             <a
               onClick={() => window.open(githubURL, "_blank")}
               className="flex justify-between items center w-full text-gray-300"
-              href='github'
+              href="github"
             >
               Github <FaGithub size={30} />
             </a>
